@@ -1,0 +1,150 @@
+/* Default Reset */
+body {
+    background-color: #141619;
+    color: #FFFFFF;
+}
+
+*,
+*::before,
+*::after {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body Styles */
+body {
+    scroll-behavior: smooth;
+    overflow-x: hidden;
+    font-family: inter;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+    color: #FFFFFF;
+    list-style-type: none;
+    text-decoration: none; transition: .5s ease all;
+}
+
+/* Headings */
+h1 {
+    font-family: Inter;
+    font-size: 76px;
+    font-weight: 500;
+    line-height: 86px;
+    text-align: center;
+    color: #FFFFFF;
+    padding: 28px 0 28px 0;
+}
+
+h2 {
+    font-family: Inter;
+    font-size: 56px;
+    font-weight: 500;
+    line-height: 78px;
+    text-align: center;
+    color: #FFFFFF;
+    padding-bottom: 24px;
+}
+
+h3 {
+    font-family: Inter;
+    font-size: 36px;
+    font-weight: 400;
+    line-height: 44px;
+    text-align: left;
+}
+
+h4 {
+    font-family: Inter;
+    font-size: 38px;
+    font-weight: 500;
+    line-height: 68px;
+    text-align: center;
+}
+
+h5 {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+    color: #E5E5E5;
+}
+
+h6 {
+    font-family: Inter;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    text-align: center;
+}
+
+/* Images */
+img {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    border: none;
+    vertical-align: middle;
+}
+
+/* Links */
+a {
+    color: #FFFFFF;
+    outline: none;
+    text-decoration: none !important;
+    cursor: pointer;
+    vertical-align: top;
+    max-width: 100% !important;
+    white-space: normal !important;
+    display: inline-block;
+    transition: .5s ease all;
+}
+
+/* Lists */
+li,
+a {
+    list-style-type: none;
+}
+
+/* Paragraphs */
+p {
+    display: block;
+}
+
+/*  Classes */
+.flex {
+    display: flex;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.text-center {
+    text-align: center;
+}
+
+.jcenter {
+    justify-content: center;
+}
+
+.jspace {
+    justify-content: space-between;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.p-relative {
+    position: relative;
+}
+
+.d-none {
+    display: none;
+}
